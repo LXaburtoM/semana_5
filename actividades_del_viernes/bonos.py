@@ -8,6 +8,6 @@ elif sueldo > 1500 and sueldo <= 3000:
     print(f"El bono es del 5%: {bono:.2f}")
 else:
     bono = 0
-    print("No tiene bono.")
+    print(f"salario total.{sueldo+bono:.2f}")
 
 print(f"Sueldo: {sueldo:.2f}, Bono: {bono:.2f}")
